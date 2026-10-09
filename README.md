@@ -6,11 +6,11 @@
 
 支持上一页、下一页、亮度增减和息屏。手机只填写 Kindle IP，使用统一的 8080 端口，无需选择原系统或 KOReader。原生 Java，无第三方 Android 运行依赖；无需账号，仅申请网络权限。
 
-当前版本：0.3.1。已验证 Android 14、Smart 1 M 档及 KPW3 的 KOReader 2025.10／原系统。其他 Kindle 机型未验证；分体手柄及阅读器间自动切换仍需实测。手柄的标准按键与轴已支持，朱雀分体手柄的 2.4G 与双蓝牙连接尚待实机适配。暂不支持 3DS、iOS、手机锁屏或后台接收、远程唤醒。
+当前版本：0.3.2。图标采用适合墨水屏的白底黑线遥控器与 Wi-Fi 符号，支持自适应图标和 Android 13 主题图标。已验证 Android 14、Smart 1 M 档及 KPW3 的 KOReader 2025.10／原系统。其他 Kindle 机型未验证；分体手柄及阅读器间自动切换仍需实测。手柄的标准按键与轴已支持，朱雀分体手柄的 2.4G 与双蓝牙连接尚待实机适配。暂不支持 3DS、iOS、手机锁屏或后台接收、远程唤醒。
 
 ## Android 安装与使用
 
-1. 按下文构建 APK，安装 `dist/RemoteController-0.3.1-debug.apk`（Android 8.0+）。
+1. 按下文构建 APK，安装 `dist/RemoteController-0.3.2-debug.apk`（Android 8.0+）。
 2. 在系统设置配对翻页器／手柄。手机和 Kindle 连接同一 Wi-Fi。
 3. 启动 Kindle 端接收服务，填写 Kindle IP，点击“测试连接并保存”。
 4. 开启“接收遥控按键”，保持 App 前台。可用“暗屏阅读模式”降低亮度；它不锁屏。

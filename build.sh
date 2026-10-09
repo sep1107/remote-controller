@@ -25,6 +25,6 @@ if [ ! -f "$key" ]; then
 fi
 mkdir -p dist
 "$tools/apksigner" sign --ks "$key" --ks-pass pass:android --key-pass pass:android \
-  --out dist/RemoteController-0.3.1-debug.apk "$work/aligned.apk"
-"$tools/apksigner" verify dist/RemoteController-0.3.1-debug.apk
-printf 'APK: %s/dist/RemoteController-0.3.1-debug.apk\nBuild workspace: %s\n' "$PWD" "$work"
+  --out dist/RemoteController-0.3.2-debug.apk "$work/aligned.apk"
+"$tools/apksigner" verify dist/RemoteController-0.3.2-debug.apk
+printf 'APK: %s/dist/RemoteController-0.3.2-debug.apk\nBuild workspace: %s\n' "$PWD" "$work"
