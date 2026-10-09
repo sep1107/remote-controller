@@ -79,7 +79,7 @@ public final class MainActivity extends Activity {
         ScrollView scroll = new ScrollView(this);
         scroll.addView(root);
         setContentView(scroll);
-        TextView title = text("Kindle 控制器", 28);
+        TextView title = text("远程控制器", 28);
         title.setPadding(0, 12, 0, 6);
         text("翻页、亮度与息屏", 14);
         host = field("Kindle IP", prefs.getString("host", ""));

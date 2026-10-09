@@ -6,3 +6,5 @@ Kindle遥控KindleRemote.md
 *.jks
 *.idsig
 .DS_Store
+native-kual/
+tests/native-test.lua
