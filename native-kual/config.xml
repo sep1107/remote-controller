@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension>
+  <information>
+    <name>remote Wi-Fi</name>
+    <version>0.3.0</version>
+    <author>KindleRemote</author>
+    <id>kindle-remote</id>
+  </information>
+  <menus>
+    <menu type="json" dynamic="false">menu.json</menu>
+  </menus>
+</extension>
